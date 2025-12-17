@@ -1,0 +1,17 @@
+{
+  "canisters": {
+    "metanet_scaffold_frontend": {
+      "source": ["src/metanet_scaffold_frontend/dist"],
+      "type": "assets",
+      "workspace": "metanet_scaffold_frontend"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}

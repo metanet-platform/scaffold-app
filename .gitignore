@@ -1,0 +1,64 @@
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+
+# Environment
+.env
+.env.local
+.env.production
+.env.*.local
+
+# DFX / Internet Computer
+.dfx/
+canister_ids.json
+.ic-assets.json
+target/
+CACHEDIR.TAG
+
+# Build output
+dist/
+build/
+*.wasm
+*.did.js
+*.did.d.ts
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+
+# OS
+.DS_Store
+Thumbs.db
+*.orig
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+pnpm-debug.log*
+
+# Testing
+coverage/
+.nyc_output/
+
+# Misc
+.cache/
+temp/
+tmp/
+*.tmp
+
+# Appwrite (local keys - never commit!)
+appwrite-local-key.txt
+
+# Generated documentation
+docs/.vitepress/dist/
+docs/.vitepress/cache/

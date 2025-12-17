@@ -1,0 +1,10 @@
+{
+  "name": "grant-user-role",
+  "version": "1.0.0",
+  "description": "Grants roles to users",
+  "main": "src/index.js",
+  "type": "module",
+  "dependencies": {
+    "node-appwrite": "^12.0.1"
+  }
+}
